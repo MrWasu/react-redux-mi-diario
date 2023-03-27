@@ -81,6 +81,7 @@ export const RegisterPage = () => {
               type="password"
               placeholder='Contraseña'
               fullWidth
+              autoComplete='current-password'
               name='password'
               value={password}
               onChange={onInputChange}
